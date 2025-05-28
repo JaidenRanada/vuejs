@@ -8,7 +8,8 @@ import Todos from './components/Todos.vue'
   <main>
     <authenticator>
       <template v-slot="{ signOut }">
-        <Todos />
+        <h1>Hello {{user?.signInDetails?.loginId}}'s todos</h1>
+	<Todos />
         <button @click="signOut">Sign Out</button>
       </template>
     </authenticator>
