@@ -6,6 +6,8 @@ import Todos from './components/Todos.vue'
 
 <template>
   <main>
+
+    <Todos />
     
     <authenticator>
       <template v-slot="{ signOut }">
