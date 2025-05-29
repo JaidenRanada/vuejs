@@ -53,11 +53,7 @@ function deleteTodo(id: string) {
       </li>
     </ul>
     <div>
-      🥳 App successfully hosted. Try creating a new todo.
-      <br />
-      <a href="https://docs.amplify.aws/gen2/start/quickstart/nextjs-pages-router/">
-        Review next steps of this tutorial.
-      </a>
+      <br/>
     </div>
   </main>
 </template>
